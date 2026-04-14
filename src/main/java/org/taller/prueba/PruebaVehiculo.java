@@ -15,4 +15,7 @@ public class PruebaVehiculo {
 }
 
 //Este error ocurre porque la clase vehiculo no es public,
-// y solo existen dentro de su paquete
+// y solo existen dentro de su paquete. Para que sea accesible
+// desde fuera habría que marcarlo como 'public' o proveer un
+// getter public.
+//
